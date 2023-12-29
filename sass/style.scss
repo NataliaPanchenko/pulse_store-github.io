@@ -1,0 +1,40 @@
+@import 'libs/animate';
+@import 'libs/fonts';
+@import 'libs/header.min';
+@import 'libs/slick';
+
+@import 'base/variables';
+@import 'base/animations';
+
+* {
+    // font-family: 'Museo Sans Curl', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/benefits';
+@import 'blocks/consultation';
+@import 'blocks/titles';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+
+
+
+
+
+
+
