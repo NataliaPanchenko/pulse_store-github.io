@@ -96,15 +96,15 @@ $(document).ready(function () {
       },
       messages: {
         name: {
-          required: "Будь ласка, введіть свою пошту",
+          required: "Please enter your email",
           minlength: jQuery.validator.format(
-            "Будь ласка, введіть {0} або більше символів"
+            "Please enter {0} or more characters"
           ),
         },
-        phone: "Будь ласка, введіть свою пошту",
+        phone: "Please enter your email",
         email: {
-          required: "Будь ласка, введіть свою пошту",
-          email: "Неправильно введена адреса пошти",
+          required: "Please enter your email",
+          email: "Invalid email address",
         },
       },
     });
