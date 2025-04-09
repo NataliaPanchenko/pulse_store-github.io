@@ -1,0 +1,17 @@
+@media (max-width: 400px) {
+    .promo__wrapper {
+        min-height: 400px;
+    }
+    .button {
+        width: 100px;
+        &_main {
+        width: 100px;
+    }
+    }
+    .carousel {
+        &__inner {
+        width: 250px;
+    }
+    }
+    
+}
